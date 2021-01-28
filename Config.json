@@ -1,0 +1,26 @@
+{
+	"dev": {
+	"OrchestratorQueueName": "Dev-Abbyy_Integration_with_Uipath",
+	"BatchType": "Distributed",
+    	"Username": "SVC_Abbyyuser2",
+    	"Password": "Abbyy@123",
+    	"ServerURL": "https://flexicapture.com",
+    	"InputFolderPath": "C:\\RPA\\Solutions\\Abbyy\\data\\Input\\",
+    	"OutputFolderPath": "C:\\RPA\\Solutions\\Abbyy\\data\\Output\\",
+	"OutputFileName": "PANCARD_Export_OUTPUT.xlsx",
+   	"logF_BusinessProcessName": "Abbyy Integration with Uipath ",
+    	"LogMessage_GetTransactionData": "Processing Transaction Number: ",
+    	"LogMessage_GetTransactionDataError": "Error getting transaction data for Transaction Number: ",
+    	"LogMessage_Success": "Transaction Successful",
+    	"LogMessage_BusinessRuleException": "Business rule exception",
+    	"LogMessage_ApplicationException": "System exception",
+    	"MaxRetryNumber": 2,
+	"Asset Name" : "SMTP_AccountPassword",
+	"WorkFlowName": "Abbyy Integration with Uipath",
+	"SMTP_MailType" : "SMTP",
+	"SMTP_host" : "smtp.gmail.com",
+	"SMTP_Port" : "465",
+	"Recipient_TO_MailID" : "gneelima@mfxservices.com",
+	
+	},
+}
